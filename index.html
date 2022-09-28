@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@400;700&family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/util.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>toLearn</title>
+</head>
+<body>
+    <div class="header bg-color-main">
+        <div class="container d-flex justify-content-between">
+            <h1>
+                <a href="index.html" class="d-flex align-items-center">
+                    <img src="images/logo.png" alt="logo">
+                    <p>toLearn</p>
+                </a>
+            </h1>
+            <ul class="nav d-flex">
+                <li><a href="index.html" class="nav-list-link">首頁</a></li>
+                <li class="ms-48"><a href="course.html" class="nav-list-link">精選課程</a></li>
+                <li class="ms-48"><a href="blog.html" class="nav-list-link">部落格</a></li>
+                <li class="ms-48"><a href="qna.html" class="nav-list-link">常見問題</a></li>
+                <li class="ms-48"><a href="logIn.html" class="nav-list-link">登入</a> / <a href="signUp.html" class="nav-list-link">成為學員</a></li>
+            </ul>
+            <div class="list-mobile">
+                <label for="switch">☰</label><!--漢堡按鈕圖示-->
+                <input type="checkbox" id="switch"><!--選單開關-->
+                <ul class="menu"><!--選單內容-->
+                  <li><a href="index.html">首頁</a></li>
+                  <li><a href="course.html">精選課程</a></li>
+                  <li><a href="blog.html">部落格</a></li>
+                  <li><a href="qna.html">常見問題</a></li>
+                  <li><a href="logIn.html">登入</a></li>
+                </ul>
+            </div>
+            <!-- <div class="nav-mobile">
+                <label for="burger">☰</label>
+                <input type="checkbox" name="" id="burger">
+                <ul>
+                    <li><a href="index.html" class="nav-moblie-link">首頁</a></li>
+                    <li><a href="course.html" class="nav-moblie-link">精選課程</a></li>
+                    <li><a href="blog.html" class="nav-moblie-link">部落格</a></li>
+                    <li><a href="qna.html" class="nav-moblie-link">常見問題</a></li>
+                    <li><a href="logIn.html" class="nav-moblie-link">登入</a></li>
+                </ul>
+            </div> -->
+        </div>
+    </div>
+    <div class="space-box"></div>
+    <div class="banner pt-80 pb-80">
+        <div class="container d-flex justify-content-center align-items-center">
+            <div class="">
+                <h2 class="title">
+                    跟著 toLearn<br>
+                    線上學習不卡關
+                </h2>
+                <p class="subtitle text-24 me-80">
+                    toLearn 是專門面向無基礎程式學習者的線上課程平台。<br>
+                    在 toLearn，你可以更有效地掌握撰寫程式的竅門！<br>
+                </p>
+            </div>
+            <div>
+                <img src="images/banner.png" alt="banner" class="banner-img">
+            </div>
+        </div>
+    </div>
+    <div class="introduction container pt-80 pb-80">
+        <ul class="d-flex justify-content-around align-items-center text-align-center">
+            <li>
+                <p class="intro-title text-align-left">
+                    程式學習<br>
+                    <span class="underline">不再</span>遙不可及
+                </p>
+            </li>
+            <li>
+                <img src="images/intro01.png" alt="icon" class="intro-img">
+                <h4 class="intro-subtitle">超過數十種專業課程</h4>
+                <p>
+                    豐富的課程任您選擇<br>
+                    滿足您所有期待
+                </p>
+            </li>
+            <li>
+                <img src="images/intro02.png" alt="icon" class="intro-img">
+                <h4 class="intro-subtitle">深入淺出高效學習</h4>
+                <p>
+                    淺顯易懂地解說難解的程式語言<br>
+                    無論任何背景都能有效學習
+                </p>
+            </li>
+            <li>
+                <img src="images/intro03.png" alt="icon" class="intro-img">
+                <h4 class="intro-subtitle">技能地圖系統教學</h4>
+                <p>
+                    獨家統整工程師技能樹<br>
+                    學習程式不再毫無章法
+                </p>
+            </li>
+        </ul>
+    </div>
+    <div class="course pt-80 pb-80 bg-color-sub">
+        <div class="container">
+            <h3 class="title"><span class="underline">推薦</span>課程</h3>
+            <ul class="d-flex justify-content-between">
+                <li class="list-item me-48">
+                    <a href="coursePage1.html" class="list-item-link">
+                        <img src="images/hm-course01.jpg" alt="course image" class="course-img">
+                        <div class="course-content p-32">
+                            <h4 class="course-subtitle">基礎前端｜用HTML、CSS開發一個網站</h4>
+                            <p class="mb-8 color-main">前端語言</p>
+                            <p class="mb-24 yellow">★★★★★</p>
+                            <p class="d-block mb-48">
+                                帶領無基礎的平民老百姓，從最基礎的 HTML 語法出發，使用最淺顯易懂的語言與生活隨處可見的例子...
+                            </p>
+                            <ul class="d-none mb-24 fw-semi-bold">
+                                <li>完全沒有網頁設計、程式基礎</li>
+                                <li>想要從無到有設計一個網站</li>
+                                <li>目標成為網頁設計師、前端工程師、軟體工程師</li>
+                                <li class="button">瞭解課程  ➣</li>
+                            </ul>
+                            <p class="text-20">NT$1600</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="list-item me-48">
+                    <a href="coursePage2.html" class="list-item-link">
+                        <img src="images/hm-course02.jpg" alt="course image" class="course-img">
+                        <div class="course-content p-32">
+                            <h4 class="course-subtitle">最新 Python 全攻略｜從入門到實務</h4>
+                            <p class="mb-8 color-main">後端語言</p>
+                            <p class="mb-24 yellow">★★★★★</p>
+                            <p class="d-block mb-48">
+                                Python 支援多種程式設計範式，包括函數式、指令式、反射式、結構化和物件導向程式設計，它擁有動態...
+                            </p>
+                            <ul class="d-none mb-24 fw-semi-bold">
+                                <li>學會基本Python語法、培養程式邏輯以及程式語言觀念</li>
+                                <li>識別基本與進階Python資料類別與使用時機</li>
+                                <li>學會使用Python網路爬蟲技巧以及操作實際專案</li>
+                                <li class="button">瞭解課程  ➣</li>
+                            </ul>
+                            <p class="text-20">NT$1600</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="list-item">
+                    <a href="coursePage3.html" class="list-item-link">
+                        <img src="images/hm-course03.jpg" alt="course image" class="course-img">
+                        <div class="course-content p-32">
+                            <h4 class="course-subtitle">PHP 零基礎七天入門｜入門到實務</h4>
+                            <p class="mb-8 color-main">後端語言</p>
+                            <p class="mb-24 yellow">★★★★★</p>
+                            <p class="d-block mb-48">
+                                PHP 適用於網路開發並可嵌入HTML中使用。語法借鑑吸收C語言、Java和Perl等流行電腦語言的特點...
+                            </p>
+                            <ul class="d-none mb-24 fw-semi-bold">
+                                <li>專為初學者開設</li>
+                                <li>用實戰帶您學習如何用PHP架構一個網頁</li>
+                                <li>了解SQL資料庫架構，並教您如何建構資料庫，如何找尋資料、分類、運用</li>
+                                <li class="button">瞭解課程  ➣</li>
+                            </ul>
+                            <p class="text-20">NT$1600</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="language pt-80 pb-80">
+        <div class="container">
+            <h3>程式學習，<span class="underline">都在</span>這裡</h3>
+            <ul class="language-list d-flex justify-content-center">
+                <li class="language-item d-flex justify-content-center align-items-center me-16"><a href="allCourseJS.html" class="list-item-link pt-24 pb-24 ps-32 pe-32">
+                    <p class="d-block">JavaScript</p>
+                    <p class="d-none">學習 JavaScript</p>
+                </a></li>
+                <li class="language-item d-flex justify-content-center align-items-center me-16"><a href="allCourse.html" class="list-item-link pt-24 pb-24 ps-32 pe-32">
+                    <p class="d-block">HTML/CSS</p>
+                    <p class="d-none">學習 HTML/CSS</p>
+                </a></li>
+                <li class="language-item d-flex justify-content-center align-items-center me-16"><a href="#" class="list-item-link pt-24 pb-24 ps-32 pe-32">
+                    <p class="d-block">Java</p>
+                    <p class="d-none">學習 Java</p>
+                </a></li>
+                <li class="language-item d-flex justify-content-center align-items-center me-16"><a href="#" class="list-item-link pt-24 pb-24 ps-32 pe-32">
+                    <p class="d-block">Python</p>
+                    <p class="d-none">學習 Python</p>
+                </a></li>
+                <li class="language-item d-flex justify-content-center align-items-center me-16"><a href="#" class="list-item-link pt-24 pb-24 ps-32 pe-32">
+                    <p class="d-block">PHP</p>
+                    <p class="d-none">學習 PHP</p>
+                </a></li>
+                <li class="language-item d-flex justify-content-center align-items-center me-16"><a href="#" class="list-item-link pt-24 pb-24 ps-32 pe-32">
+                    <p class="d-block">C++</p>
+                    <p class="d-none">學習 C++</p>
+                </a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="allCourse pt-80 pb-80 bg-color-sub">
+        <div class="container">
+            <ul class="d-flex justify-content-around mb-60">
+                <li class="list-item">
+                    <a href="coursePage1.html" class="list-item-link">
+                        <div class="allCourse-img">
+                            <img src="images/course01.jpg" alt="course image" class="mb-14">
+                        </div>
+                        <div class="allCourse-content">
+                            <h3 class="subtitle">學習網頁開發：實作個人網頁履歷</h3>
+                            <p class="mb-8 color-main">前端語言</p>
+                            <p class="mb-8 yellow">★★★★★</p>
+                            <p class="mb-8 text-20 fw-semi-bold">$1600</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="list-item">
+                    <a href="#" class="list-item-link">
+                        <div class="allCourse-img">
+                            <img src="images/course02.jpg" alt="course image" class="mb-14">
+                        </div>
+                        <div class="allCourse-content">
+                            <h3 class="subtitle">Python基礎課程和網路爬蟲入門實戰</h3>
+                            <p class="mb-8 color-main">後端語言</p>
+                            <p class="mb-8 yellow">★★★★★</p>
+                            <p class="mb-8 text-20 fw-semi-bold">$1600</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="list-item">
+                    <a href="#" class="list-item-link">
+                        <div class="allCourse-img">
+                            <img src="images/course03.jpg" alt="course image" class="mb-14">
+                        </div>
+                        <div class="allCourse-content">
+                            <h3 class="subtitle">來點Java吧！2022 Java 入門到精通課程</h3>
+                            <p class="mb-8 color-main">後端語言</p>
+                            <p class="mb-8 yellow">★★★★★</p>
+                            <p class="mb-8 text-20 fw-semi-bold">$1600</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="list-item">
+                    <a href="#" class="list-item-link">
+                        <div class="allCourse-img">
+                            <img src="images/course04.jpg" alt="course image" class="mb-14">
+                        </div>
+                        <div class="allCourse-content">
+                            <h3 class="subtitle">深入淺出了解 ES6 JavaScript</h3>
+                            <p class="mb-8 color-main">前端語言</p>
+                            <p class="mb-8 yellow">★★★★★</p>
+                            <p class="mb-8 text-20 fw-semi-bold">$1600</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <div class="all-course">
+                <a href="allCourse.html" class="btn">更多課程 ➜</a>
+            </div>
+        </div>
+    </div>
+    <div class="recommend container d-flex justify-content-center align-items-center pt-100 pb-100">
+        <div class="title-content">
+            <h3 class="title">超過千名學員肯定</h3>
+            <div class="title-box"></div>
+        </div>
+        <div class="d-flex">
+            <p class="text-128 ms-48 me-48">“</p>
+            <!-- 輪播效果 -->
+            <div class="recommend-content">
+                <div class="recommend-content-list d-flex align-items-center ms-48 me-48">
+                    <img src="images/student01.jpg" alt="student profile" class="student-pro me-24">
+                    <p class="text-24 fw-bold">系統化的學習方式，讓人學習的過程中不迷路！</p>
+                </div>
+                <div class="recommend-content-list d-flex align-items-center ms-48 me-48">
+                    <img src="images/student02.jpg" alt="student profile" class="student-pro me-24">
+                    <p class="text-24 fw-bold">老師很有耐心，教學深入淺出。</p>
+                </div>
+                <div class="recommend-content-list d-flex align-items-center ms-48 me-48">
+                    <img src="images/student03.jpg" alt="student profile" class="student-pro me-24">
+                    <p class="text-24 fw-bold">你想要學的，這裡通通都有！</p>
+                </div>
+            </div>
+            <p class="text-128 ms-48 me-48">”</p>
+        </div>
+    </div>
+    <div class="article pt-80 pb-80">
+        <div class="container">
+            <h3>延伸閱讀</h3>
+            <ul class="d-flex justify-content-between">
+                <li class="list-item">
+                    <a href="#" class="list-item-link">
+                        <img src="images/article01.png" alt="article picture" class="article-img">
+                        <h4 class="title mb-24">前端開發者學習地圖</h4>
+                        <p class="mb-24">轉職為前端的這條職業路上該如何發展？本篇為前端開發者提供學習地圖參考</p>
+                        <p class="button">MORE</p>
+                    </a>
+                </li>
+                <li class="list-item">
+                    <a href="#" class="list-item-link">
+                        <img src="images/article02.png" alt="article picture" class="article-img">
+                        <h4 class="title mb-24">軟體工程師有哪些類別</h4>
+                        <p class="mb-24">軟體工程師領域廣闊，許多人仍然對此相關職務感到陌生，本篇就介紹主流的軟體工程師職務</p>
+                        <p class="button">MORE</p>
+                    </a>
+                </li>
+                <li class="list-item">
+                    <a href="#" class="list-item-link">
+                        <img src="images/article03.png" alt="article picture" class="article-img">
+                        <h4 class="title mb-24">免費 25 小時前端教學資源</h4>
+                        <p class="mb-24">這篇文章規劃了適合「前端工程師」的學習地圖，讓新進的學生了解如何選擇課程</p>
+                        <p class="button">MORE</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer pt-80 pb-80">
+        <div class="container d-flex justify-content-between">
+            <h2 class="title">
+                <a href="index.html" class="title-link d-flex align-items-center">
+                    <img src="images/logo.png" alt="logo" class="me-16">
+                    <p>toLearn</p>
+                </a>
+            </h2>
+            <div class="nav-list d-flex">
+                <ul class="me-50">
+                    <li>
+                        <a href="index.html" class="fw-bold">首頁</a>
+                    </li>
+                </ul>
+                <ul class="me-50">
+                    <li class="list-item"><a href="course.html" class="fw-bold">精選課程</a></li>
+                    <li class="list-item"><a href="#">前端語言</a></li>
+                    <li class="list-item"><a href="#">後端語言</a></li>
+                    <li class="list-item"><a href="#">其他程式語言</a></li>
+                </ul>
+                <ul class="me-50">
+                    <li class="list-item"><a href="blog.html" class="fw-bold">部落格</a></li>
+                    <li class="list-item"><a href="#">HTML/CSS</a></li>
+                    <li class="list-item"><a href="#">JavaScript</a></li>
+                    <li class="list-item"><a href="#">PHP</a></li>
+                    <li class="list-item"><a href="#">Python</a></li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="qna.html" class="fw-bold">常見問題</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="contact">
+                <h3>Contact Us</h3>
+                <ul class="d-flex">
+                    <li class="list-item me-4"><a href="#"><img src="images/Facebook.png" alt="facebook logo"></a></li>
+                    <li class="list-item me-4"><a href="#"><img src="images/Twitter.png" alt="twitter logo"></a></li>
+                    <li class="list-item"><a href="#"><img src="images/Instagram.png" alt="instagram logo"></a></li>
+                </ul>
+                <ul>
+                    <li class="list-item"><a href="tel:+886-0800-000-000">0800-000-000</a></li>
+                    <li class="list-item"><a href="mailto:tolearn@gmail.com">tolearn@gmail.com</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

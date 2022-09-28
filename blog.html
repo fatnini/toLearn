@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@400;700&family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <!-- google icon -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <!-- css -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/util.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/blog.css">
+    <title>部落格｜toLearn</title>
+</head>
+<body>
+    <div class="header bg-color-main">
+        <div class="container d-flex justify-content-between">
+            <h1>
+                <a href="index.html" class="d-flex align-items-center">
+                    <img src="/images/logo.png" alt="logo">
+                    <p>toLearn</p>
+                </a>
+            </h1>
+            <ul class="nav d-flex">
+                <li class=""><a href="index.html" class="nav-list-link">首頁</a></li>
+                <li class="ms-48"><a href="course.html" class="nav-list-link">精選課程</a></li>
+                <li class="ms-48"><a href="blog.html" class="nav-list-link color-main fw-semi-bold">部落格</a></li>
+                <li class="ms-48"><a href="qna.html" class="nav-list-link">常見問題</a></li>
+                <li class="ms-48"><a href="logIn.html" class="nav-list-link">登入</a> / <a href="signUp.html" class="nav-list-link">成為學員</a></li>
+            </ul>
+            <div class="list-mobile">
+                <label for="switch">☰</label><!--漢堡按鈕圖示-->
+                <input type="checkbox" id="switch"><!--選單開關-->
+                <ul class="menu"><!--選單內容-->
+                  <li><a href="index.html">首頁</a></li>
+                  <li><a href="course.html">精選課程</a></li>
+                  <li><a href="blog.html">部落格</a></li>
+                  <li><a href="qna.html">常見問題</a></li>
+                  <li><a href="logIn.html">登入</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="space-box"></div>
+    <div class="blog container d-flex pt-80 pb-80">
+        <form action="" class="d-none">
+            <input type="text" placeholder="想看的文章？" class="search">
+        </form>
+        <div class="article me-80">
+            <div class="article-page">
+                <a href="#" class="article-img">
+                    <img src="images/article01.png" alt="article picture">
+                </a>
+                <a href="#" class="title-link">
+                    <h3 class="subtitle">前端開發者學習地圖</h3>
+                </a>
+                <p class="mb-24 gray">2022/09/25</p>
+                <p class="mb-24">轉職為前端的這條職業路上該如何發展？本篇為前端開發者提供學習地圖參考。</p>
+                <a href="#" class="article-link">Read More</a>
+            </div>
+            <div class="article-page pt-70">
+                <a href="#" class="article-img">
+                    <img src="images/article02.png" alt="article picture">
+                </a>
+                <a href="#" class="title-link">
+                    <h3 class="subtitle">軟體工程師有哪些類別</h3>
+                </a>
+                <p class="mb-24 gray">2022/09/25</p>
+                <p class="mb-24">軟體工程師領域廣闊，許多人仍然對此相關職務感到陌生，本篇就介紹主流的軟體工程師職務。</p>
+                <a href="#" class="article-link">Read More</a>
+            </div>
+            <div class="article-page pt-70">
+                <a href="#" class="article-img">
+                    <img src="images/article03.png" alt="article picture">
+                </a>
+                <a href="#" class="title-link">
+                    <h3 class="subtitle">免費 25 小時前端教學資源</h3>
+                </a>
+                <p class="mb-24 gray">2022/09/25</p>
+                <p class="mb-24">這篇文章規劃了適合「前端工程師」的學習地圖，讓新進的學生了解如何選擇課程。</p>
+                <a href="#" class="article-link">Read More</a>
+            </div>
+            <div class="article-page pt-70">
+                <a href="#" class="article-img">
+                    <img src="images/article00.png" alt="article picture">
+                </a>
+                <a href="#" class="title-link">
+                    <h3 class="subtitle">文章標題</h3>
+                </a>
+                <p class="mb-24 gray">2022/09/25</p>
+                <p class="mb-24">文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容。</p>
+                <a href="#" class="article-link">Read More</a>
+            </div>
+            <div class="article-page pt-70 mb-32">
+                <a href="#" class="article-img">
+                    <img src="images/article00.png" alt="article picture">
+                </a>
+                <a href="#" class="title-link">
+                    <h3 class="subtitle">文章標題</h3>
+                </a>
+                <p class="mb-24 gray">2022/09/25</p>
+                <p class="mb-24">文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容。</p>
+                <a href="#" class="article-link">Read More</a>
+            </div>
+            <ul class="page-nav d-flex">
+                <li class="list-item"><a href="#" class="list-item-link color-main">1</a></li>
+                <li class="list-item"><a href="#" class="list-item-link color-main">2</a></li>
+                <li class="list-item"><a href="#" class="list-item-link color-main">3</a></li>
+                <li class="list-item"><a href="#" class="list-item-link color-main">...</a></li>
+                <li class="list-item boder-right"><a href="#" class="list-item-link color-main">8</a></li>
+            </ul>
+        </div>
+        <div>
+            <div class="category mb-48">
+                <h4 class="title">tags</h4>
+                <hr>
+                <div class="category-content d-flex justify-content-center">
+                    <ul class="me-20">
+                        <li class="list-item"><a href="#" class="list-item-link">HTML/CSS</a></li>
+                        <li class="list-item"><a href="#" class="list-item-link">PHP</a></li>
+                        <li class="list-item"><a href="#" class="list-item-link">Python</a></li>
+                    </ul>
+                    <ul>
+                        <li class="list-item"><a href="#" class="list-item-link">JavaScript</a></li>
+                        <li class="list-item"><a href="#" class="list-item-link">前端語言</a></li>
+                        <li class="list-item"><a href="#" class="list-item-link">後端語言</a></li>
+                    </ul>
+                </div>
+            </div>
+            <form action="" class="searching">
+                <input type="text" placeholder="想看的文章？" class="search">
+            </form>
+        </div>
+    </div>
+    <div class="footer pt-80 pb-80">
+        <div class="container d-flex justify-content-between">
+            <h2 class="title">
+                <a href="index.html" class="title-link d-flex align-items-center">
+                    <img src="images/logo.png" alt="logo" class="me-16">
+                    <p>toLearn</p>
+                </a>
+            </h2>
+            <div class="nav-list d-flex">
+                <ul class="me-50">
+                    <li>
+                        <a href="index.html" class="fw-bold">首頁</a>
+                    </li>
+                </ul>
+                <ul class="me-50">
+                    <li class="list-item"><a href="course.html" class="fw-bold">精選課程</a></li>
+                    <li class="list-item"><a href="#">前端語言</a></li>
+                    <li class="list-item"><a href="#">後端語言</a></li>
+                    <li class="list-item"><a href="#">其他程式語言</a></li>
+                </ul>
+                <ul class="me-50">
+                    <li class="list-item"><a href="blog.html" class="fw-bold">部落格</a></li>
+                    <li class="list-item"><a href="#">HTML/CSS</a></li>
+                    <li class="list-item"><a href="#">JavaScript</a></li>
+                    <li class="list-item"><a href="#">PHP</a></li>
+                    <li class="list-item"><a href="#">Python</a></li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="qna.html" class="fw-bold">常見問題</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="contact">
+                <h3>Contact Us</h3>
+                <ul class="d-flex">
+                    <li class="list-item me-4"><a href="#"><img src="images/Facebook.png" alt="facebook logo"></a></li>
+                    <li class="list-item me-4"><a href="#"><img src="images/Twitter.png" alt="twitter logo"></a></li>
+                    <li class="list-item"><a href="#"><img src="images/Instagram.png" alt="instagram logo"></a></li>
+                </ul>
+                <ul>
+                    <li class="list-item"><a href="tel:+886-0800-000-000">0800-000-000</a></li>
+                    <li class="list-item"><a href="mailto:tolearn@gmail.com">tolearn@gmail.com</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>

@@ -1,0 +1,124 @@
+/* article */
+
+.blog .article {
+    margin-left: 110px;
+}
+.blog .title-link {
+    display: block;
+}
+.blog .article-img {
+    margin-bottom: 32px;
+}
+.blog .title-link .subtitle {
+    text-align: left;
+    font-size: 36px;
+    margin-bottom: 12px;
+}
+.blog .title-link .subtitle:hover {
+    text-decoration: underline;
+}
+.blog .article-page {
+    position: relative;
+    padding-bottom: 100px;
+    border-bottom: 1px solid #000;
+}
+.blog .article-link {
+    color: #FFFFFF;
+    background: #007D6F;
+    padding: 10px 20px;
+    border-radius: 8px;
+    position: absolute;
+    right: 0;
+}
+.blog .article-link:hover {
+    background: #40AF92;
+}
+.blog .page-nav .list-item {
+    border-top: 1px solid #AAAAAA;
+    border-bottom: 1px solid #AAAAAA;
+    border-left: 1px solid #AAAAAA;
+}
+.blog .page-nav .list-item-link {
+    padding: 10px 12px;
+}
+.blog .page-nav .list-item-link:hover {
+    color: #FFFFFF;
+    background: #007D6F;
+}
+
+/* category */
+
+.category {
+    padding: 20px;
+    border: 1px solid #AAAAAA;
+    border-radius: 20px;
+}
+.category .title {
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.category .category-content {
+    padding: 20px 30px;
+}
+.category .list-item-link {
+    width: 106px;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #AAAAAA;
+    border-radius: 8px;
+}
+.category .list-item-link:hover {
+    background: #F5F5F5;
+}
+
+/* search */
+
+.search {
+    font-size: 16px;
+    padding: 12px;
+    width: 100%;
+    border: 1px solid #AAAAAA;
+    border-radius: 8px;
+}
+
+/* page-nav border */
+
+.boder-right {
+    border-right: 1px solid #AAAAAA;
+}
+
+@media(max-width: 992px) {
+    .blog {
+        display: block;
+    }
+    .blog .article {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    .blog .category {
+        display: none;
+    }
+    .blog .searching {
+        display: none;
+    }
+    .blog .d-none {
+        display: block;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 48px;
+    }
+}
+
+@media(max-width: 992px) {
+    .blog .article {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .search {
+        margin: 0 auto;
+    }
+}

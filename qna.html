@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@400;700&family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/util.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/qna.css">
+    <title>常見問題｜toLearn</title>
+</head>
+<body>
+    <div class="header bg-color-main">
+        <div class="container d-flex justify-content-between">
+            <h1>
+                <a href="index.html" class="d-flex align-items-center">
+                    <img src="/images/logo.png" alt="logo">
+                    <p>toLearn</p>
+                </a>
+            </h1>
+            <ul class="nav d-flex">
+                <li class=""><a href="index.html" class="nav-list-link">首頁</a></li>
+                <li class="ms-48"><a href="course.html" class="nav-list-link">精選課程</a></li>
+                <li class="ms-48"><a href="blog.html" class="nav-list-link">部落格</a></li>
+                <li class="ms-48"><a href="qna.html" class="nav-list-link color-main fw-semi-bold">常見問題</a></li>
+                <li class="ms-48"><a href="logIn.html" class="nav-list-link">登入</a> / <a href="signUp.html" class="nav-list-link">成為學員</a></li>
+            </ul>
+            <div class="list-mobile">
+                <label for="switch">☰</label><!--漢堡按鈕圖示-->
+                <input type="checkbox" id="switch"><!--選單開關-->
+                <ul class="menu"><!--選單內容-->
+                  <li><a href="index.html">首頁</a></li>
+                  <li><a href="course.html">精選課程</a></li>
+                  <li><a href="blog.html">部落格</a></li>
+                  <li><a href="qna.html">常見問題</a></li>
+                  <li><a href="logIn.html">登入</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="space-box"></div>
+    <div class="qna pt-80 pb-80 bg-color-sub">
+        <div class="container">
+            <h2 class="title"><span class="underline">常見</span>問題</h2>
+            <ul>
+                <li>
+                    <h3>如何在 toLearn 購買課程？</h3>
+                    <p>
+                        選擇您有興趣的課程，前往課程頁面後點選立即購課，若您尚未登入，頁面將跳轉至登入頁面；若您還不是 toLearn 學員，請先 <a href="signUp.html" class="color-main text-decoration-underline">成為 toLearn 學員</a>。成功登入後將回到課程購買頁面，購買完成後，您選購的課程便會加入會員資料的清單裡，即可開始學習！
+                    </p>
+                </li>
+                <li>
+                    <h3>課程影片無法播放？</h3>
+                    <h4>若是影片觀看不流暢</h4>
+                    <p>請確認網路環境及更改畫質解析度，或是更換觀看影片使用的瀏覽器（如 Chrome、Microsoft Edge）。</p>
+                    <h4>若是突然無法載入影片</h4>
+                    <p>請關閉瀏覽器，再重新進入 toLearn 網站。</p>
+                </li>
+                <li>
+                    <h3>找不到已購買的課程？</h3>
+                    <p>
+                        登入學習帳號後，在導覽列找到 <span class="fw-bold text-decoration-underline">我的課程</span>，點擊進入後即可觀看所有已購買的課程。若是找不到課程，請確認登入的是正確的帳號；若是依然無法排除問題，請 <a href="#" class="color-main text-decoration-underline">聯絡我們</a> 。
+                    </p>
+                </li>
+                <li>
+                    <h3>什麼是線上影音課程？</h3>
+                    <p>
+                        線上影音課程是由專業的師資經過一定時間的備課準備後，進行教學課程的影音錄製，再將課程影音上架至 <a href="index.html" class="color-main fw-bold">toLearn</a> 的課程平台上，讓學員依照需求與興趣自由選購，購買課程後即可隨時隨地在任何裝置上觀看喜歡的課程。
+                    </p>
+                </li>
+                <li>
+                    <h3>聯絡 toLearn</h3>
+                    <p>
+                        <h4>若有任何問題可以透過以下方式聯絡我們：</h4>
+                        <ul class="ms-48">
+                            <li>Email：請寄信到 <a href="mailto:tolearn@gmail.com" class="color-main fw-bold">tolearn@gmail.com</a> </li>
+                            <li>聯絡電話：<a href="tel:0800-000-000" class="color-main">0800-000-000</a></li>
+                            <li>透過 <a href="#" class="color-main">toLearn</a> 的 Facebook 傳送訊息</li>
+                        </ul>
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer pt-80 pb-80">
+        <div class="container d-flex justify-content-between">
+            <h2 class="title">
+                <a href="index.html" class="title-link d-flex align-items-center">
+                    <img src="images/logo.png" alt="logo" class="me-16">
+                    <p>toLearn</p>
+                </a>
+            </h2>
+            <div class="nav-list d-flex">
+                <ul class="me-50">
+                    <li>
+                        <a href="index.html" class="fw-bold">首頁</a>
+                    </li>
+                </ul>
+                <ul class="me-50">
+                    <li class="list-item"><a href="course.html" class="fw-bold">精選課程</a></li>
+                    <li class="list-item"><a href="#">前端語言</a></li>
+                    <li class="list-item"><a href="#">後端語言</a></li>
+                    <li class="list-item"><a href="#">其他程式語言</a></li>
+                </ul>
+                <ul class="me-50">
+                    <li class="list-item"><a href="blog.html" class="fw-bold">部落格</a></li>
+                    <li class="list-item"><a href="#">HTML/CSS</a></li>
+                    <li class="list-item"><a href="#">JavaScript</a></li>
+                    <li class="list-item"><a href="#">PHP</a></li>
+                    <li class="list-item"><a href="#">Python</a></li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="qna.html" class="fw-bold">常見問題</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="contact">
+                <h3>Contact Us</h3>
+                <ul class="d-flex">
+                    <li class="list-item me-4"><a href="#"><img src="images/Facebook.png" alt="facebook logo"></a></li>
+                    <li class="list-item me-4"><a href="#"><img src="images/Twitter.png" alt="twitter logo"></a></li>
+                    <li class="list-item"><a href="#"><img src="images/Instagram.png" alt="instagram logo"></a></li>
+                </ul>
+                <ul>
+                    <li class="list-item"><a href="tel:+886-0800-000-000">0800-000-000</a></li>
+                    <li class="list-item"><a href="mailto:tolearn@gmail.com">tolearn@gmail.com</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>

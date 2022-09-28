@@ -1,0 +1,47 @@
+.qna ul {
+    max-width: 600px;
+}
+.qna ul li p {
+    margin-bottom: 40px;
+    margin-left: 48px;
+    color: #23343C;
+}
+.qna h3 {
+    text-align: left;
+    margin-bottom: 16px;
+}
+.qna h4 {
+    font-weight: 700;
+    margin-bottom: 12px;
+    margin-left: 48px;
+}
+.qna a:hover {
+    text-decoration: underline;
+}
+.qna .ms-48 {
+    list-style: disc;
+    margin-left: 64px;
+}
+
+@media(max-width: 992px) {
+    .qna .container {
+        margin-left: 36px;
+        margin-right: 36px;
+    }
+}
+
+@media(max-width: 767px) {
+    .qna .container {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+    .qna ul li p {
+        margin-left: 0;
+    }
+    .qna h4 {
+        margin-left: 0;
+    }
+    .qna .ms-48 {
+        margin-left: 18px;
+    }
+}

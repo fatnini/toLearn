@@ -1,0 +1,108 @@
+/* course */
+
+.course .list-item {
+    background: #FFFFFF;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.course .list-item .subtitle {
+    font-size: 24px;
+    margin-bottom: 14px;
+    font-weight: 500;
+    text-align: left;
+}
+.course .list-item .course-content {
+    padding: 20px;
+}
+.course .list-item-link:hover .subtitle {
+    font-weight: 700;
+}
+.course .list-item-link .course-img {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.course .list-item-link .course-img img {
+    transition: all 1s ease-out;  /* 圖片在區塊裡變形 */
+}
+.course .list-item-link:hover img {
+    transform: scale(1.2, 1.2);
+}
+
+@media(max-width: 992px) {
+    .course .title {
+        text-align: center;
+    }
+    .course ul {
+        flex-wrap: wrap;
+    }
+    .course ul li {
+        width: 42%;
+        margin-left: 20px;
+        /* margin-bottom: 20px; */
+    }
+}
+
+@media(max-width: 767px) {
+    .course ul li {
+        width: 80%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+/* all-course btn */
+
+.all-course {
+    text-align: center;
+}
+.all-course .btn {
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #055667;
+}
+.all-course .btn:hover {
+    font-weight: 500;
+    box-shadow: 0 0 0 2px #007D6F;
+}
+
+/* allCourse */
+
+.icon {
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    background: #007D6F;
+    padding: 12px 16px;
+}
+.allCourse-list {
+    position: absolute;
+    font-size: 24px;
+    display: none;
+}
+.allCourse-list .allCourse-list-item-link {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    background-color: #007D6F;
+    text-align: center;
+    padding: 16px 24px;
+    width: 150px;
+}
+.allCourse:hover .allCourse-list {
+    display: block;
+}
+.allCourse:hover > .allCourse-list-item-link {
+    color: #FFFFFF;
+    background: #055667;
+}
+.allCourse-list .allCourse-list-item-link:hover {
+    color: #FFFFFF;
+    background: #055667;
+}
+
+@media(max-width: 767px) {
+    .icon {
+        font-size: 12px;
+    }
+}

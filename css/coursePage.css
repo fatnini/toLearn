@@ -1,0 +1,124 @@
+.course-detail {
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+/* cotent */
+
+.course-detail .content .title {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.course-detail .content .subtitle {
+    font-size: 24px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.course-detail .content .list {
+    list-style: disc;
+    margin-left: 16px;
+}
+.course-detail .content .sheet {
+    width: 650px;
+}
+.course-detail .content .sheet td {
+    border-top: 1px solid #AAAAAA;
+}
+.course-detail .content .bg-color-gray:hover {
+    background: #D9D9D9;
+}
+.course-detail .content .bg-color-sub:hover {
+    background: #D9D9D9;
+}
+
+/* sidebar info */
+
+.course-detail .sidebar .info, .lecturer, .recommend {
+    width: 360px;
+    padding: 30px;
+    margin-bottom: 60px;
+    border: 1px solid #D9D9D9;
+    border-radius: 8px;
+}
+.course-detail .sidebar .info .title {
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+.course-detail .sidebar .info .btn {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+}
+.course-detail .sidebar .info .btn1 {
+    color: #FFFFFF;
+    background: #007D6F;
+}
+.course-detail .sidebar .info .btn2 {
+    color: #007D6F;
+    border: 1px solid #007D6F;
+}
+.course-detail .sidebar .info .btn1:hover {
+    color: #FFFFFF;
+    background: #055667;
+}
+.course-detail .sidebar .info .btn2:hover {
+    font-weight: 500;
+    color: #055667;
+    border: 1px solid #055667;
+}
+
+/* sidebar lecturer */
+
+.course-detail .sidebar .lecturer .lecturer-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+/* sidebar recommend */
+
+.course-detail .sidebar .recommend .student-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+/* relavant */
+
+.relavant {
+    max-width: 985px;
+    margin: 0 auto;
+    border-top: 1px solid #000;
+}
+.relavant .list-item {
+    background: #FFFFFF;
+    box-shadow: 0 0 3px #AAAAAA;
+}
+.relavant .list-item .subtitle {
+    font-size: 24px;
+    margin-bottom: 14px;
+    font-weight: 500;
+    text-align: left;
+}
+.relavant .list-item .course-content {
+    padding: 20px;
+}
+.relavant .list-item-link:hover .subtitle {
+    font-weight: 700;
+}
+.relavant .list-item-link .course-img {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.relavant .list-item-link .course-img img {
+    transition: all 1s ease-out;  /* 圖片在區塊裡變形 */
+}
+.relavant .list-item-link:hover img {
+    transform: scale(1.2, 1.2);
+}

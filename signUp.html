@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@400;700&family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/util.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/signUp.css">
+    <title>成為學員｜toLearn</title>
+</head>
+<body>
+    <div class="header bg-color-main">
+        <div class="container d-flex justify-content-between">
+            <h1>
+                <a href="index.html" class="d-flex align-items-center">
+                    <img src="/images/logo.png" alt="logo">
+                    <p>toLearn</p>
+                </a>
+            </h1>
+            <ul class="nav d-flex">
+                <li class=""><a href="index.html" class="nav-list-link">首頁</a></li>
+                <li class="ms-48"><a href="course.html" class="nav-list-link">精選課程</a></li>
+                <li class="ms-48"><a href="blog.html" class="nav-list-link">部落格</a></li>
+                <li class="ms-48"><a href="qna.html" class="nav-list-link">常見問題</a></li>
+                <li class="ms-48"><a href="logIn.html" class="nav-list-link">登入</a> / <a href="signUp.html" class="nav-list-link color-main fw-semi-bold">成為學員</a></li>
+            </ul>
+            <div class="list-mobile">
+                <label for="switch">☰</label><!--漢堡按鈕圖示-->
+                <input type="checkbox" id="switch"><!--選單開關-->
+                <ul class="menu"><!--選單內容-->
+                  <li><a href="index.html">首頁</a></li>
+                  <li><a href="course.html">精選課程</a></li>
+                  <li><a href="blog.html">部落格</a></li>
+                  <li><a href="qna.html">常見問題</a></li>
+                  <li><a href="logIn.html">登入</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="space-box"></div>
+    <div class="signUp container pt-80 pb-80">
+        <h2 class="title">加入成為 toLearn 學員</h2>
+        <div class="signUp-section">
+            <form action="./php/signUp.php" method="get">
+                <input type="hidden" name="action" value="add"> <!-- 提供給 06_add_OK.php 加入前判斷用 -->
+                <label for="account" class="label-text">帳號</label>
+                <input type="text" name="account" id="account" placeholder="請輸入電子郵件信箱" class="input-box" required>
+                <label for="password" class="label-text">密碼</label>
+                <input type="password" name="password" id="password" placeholder="請輸入密碼" class="input-box" required>
+                <!-- <label for="pwcheck" class="label-text">確認密碼</label>
+                <input type="password" name="password" id="pwcheck" placeholder="請再次輸入密碼" class="input-box" required> -->
+                <label for="email" class="label-text">電子信箱</label>
+                <input type="text" name="email" id="email" placeholder="請輸入信箱" class="input-box" required>
+                <label for="name" class="label-text">姓名</label>
+                <input type="text" name="name" id="name" placeholder="請輸入姓名" class="input-box" required>
+                <label for="phone" class="label-text">聯絡電話</label>
+                <input type="number" name="Phone" id="phone" placeholder="請輸入聯絡電話" class="input-box" required>
+                <input type="submit" value="加入 toLearn" class="button">
+            </form>
+            <p class="text-12 pb-48">加入 toLearn 即代表您同意我們的 <a href="#" class="color-main">使用條款</a> 與 <a href="#" class="color-main">隱私權政策</a></p>
+            <hr>
+            <p class="pt-24">已經是 toLearn 學員？<a href="logIn.html" class="link ms-24">登入</a></p>
+        </div>
+    </div>
+    <div class="footer pt-80 pb-80">
+        <div class="container d-flex justify-content-between">
+            <h2 class="title">
+                <a href="index.html" class="title-link d-flex align-items-center">
+                    <img src="images/logo.png" alt="logo" class="me-16">
+                    <p>toLearn</p>
+                </a>
+            </h2>
+            <div class="nav-list d-flex">
+                <ul class="me-50">
+                    <li>
+                        <a href="index.html" class="fw-bold">首頁</a>
+                    </li>
+                </ul>
+                <ul class="me-50">
+                    <li class="list-item"><a href="course.html" class="fw-bold">精選課程</a></li>
+                    <li class="list-item"><a href="#">前端語言</a></li>
+                    <li class="list-item"><a href="#">後端語言</a></li>
+                    <li class="list-item"><a href="#">其他程式語言</a></li>
+                </ul>
+                <ul class="me-50">
+                    <li class="list-item"><a href="blog.html" class="fw-bold">部落格</a></li>
+                    <li class="list-item"><a href="#">HTML/CSS</a></li>
+                    <li class="list-item"><a href="#">JavaScript</a></li>
+                    <li class="list-item"><a href="#">PHP</a></li>
+                    <li class="list-item"><a href="#">Python</a></li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="qna.html" class="fw-bold">常見問題</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="contact">
+                <h3>Contact Us</h3>
+                <ul class="d-flex">
+                    <li class="list-item me-4"><a href="#"><img src="images/Facebook.png" alt="facebook logo"></a></li>
+                    <li class="list-item me-4"><a href="#"><img src="images/Twitter.png" alt="twitter logo"></a></li>
+                    <li class="list-item"><a href="#"><img src="images/Instagram.png" alt="instagram logo"></a></li>
+                </ul>
+                <ul>
+                    <li class="list-item"><a href="tel:+886-0800-000-000">0800-000-000</a></li>
+                    <li class="list-item"><a href="mailto:tolearn@gmail.com">tolearn@gmail.com</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>

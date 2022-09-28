@@ -1,0 +1,55 @@
+.logIn .title {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 64px;
+}
+.logIn .logIn-section {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+.logIn .logIn-section .label-text {
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    text-align-last: left;
+    margin-bottom: 4px;
+}
+.logIn .logIn-section .input-box {
+    display: block;
+    width: 400px;
+    height: 36px;
+    margin-bottom: 16px;
+}
+.logIn .logIn-section .button {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    cursor: pointer;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #40AF92;
+    border: none;
+    border-radius: 8px;
+    padding: 15px 0;
+    margin-top: 48px;
+    margin-bottom: 16px;
+}
+.logIn .logIn-section .button:hover {
+    background: #007D6F;
+}
+.logIn .logIn-section .link {
+    color: #40AF92;
+}
+.logIn .logIn-section .link:hover {
+    color: #007D6F;
+    font-weight: 500;
+}
+
+@media(max-width: 767px) {
+    .logIn .logIn-section .input-box {
+        width: 100%;
+    }
+}
