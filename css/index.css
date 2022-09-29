@@ -150,7 +150,7 @@
 
 @media(max-width: 992px) {
     .course .container ul {
-        width: 45%;
+        width: 70%;
         margin: 0 auto;
         flex-wrap: wrap;
     }
@@ -274,7 +274,7 @@
 
 @media(max-width: 992px) {
     .allCourse ul {
-        width: 70%;
+        width: 80%;
         margin: 0 auto;
         flex-wrap: wrap;
         margin-bottom: 24px;
